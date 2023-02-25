@@ -5,15 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/*.js --exit",
-    "lint": "eslint .",
-    "start": "npm run lint && node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sunilksamanta/node-mongoose-setup.git"
+    "url": "git@github.com:bmani61/foodAPI.git"
   },
-  "author": "Sunil Kumar Samanta",
-  "license": "ISC",
+  "author": "Manikanth",
+  "license": "MIT",
   "dependencies": {
     "async": "^3.2.2",
     "auto-bind": "^4.0.0",
@@ -26,18 +25,13 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.1.1",
-    "jsonwebtoken": "^8.5.1",
-    "mocha": "^8.1.3",
+    "jsonwebtoken": "^9.0.0",
+    "mocha": "^10.2.0",
     "mongoose": "^5.7.7",
     "mongoose-unique-validator": "^2.0.3",
     "multer": "^1.4.2",
     "pluralize": "^8.0.0",
     "request": "^2.88.2",
     "slugify": "^1.3.5"
-  },
-  "devDependencies": {
-    "eslint": "^7.12.1",
-    "babel-eslint": "^10.1.0",
-    "eslint-plugin-import": "^2.22.1"
   }
 }
